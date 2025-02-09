@@ -1,0 +1,28 @@
+.navbar{
+    height: 100px;
+
+    .logo-wrapper{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+
+        .v-i{
+            font-size: 1.5rem;
+            color: #1cb5f1;
+        }
+    }
+    .wrapper{
+        max-width: 1366px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+    }
+
+    .socials{
+        display: flex;
+        gap: 20px;
+        color: #1cb5f1;
+    }
+}
