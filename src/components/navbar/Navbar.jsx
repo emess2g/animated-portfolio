@@ -1,11 +1,14 @@
-import { Facebook, InstagramIcon, LinkedinIcon, Mail, TwitchIcon, TwitterIcon, VerifiedIcon } from 'lucide-react'
+import { Facebook, InstagramIcon, LinkedinIcon, Mail,  TwitterIcon, VerifiedIcon } from 'lucide-react'
 import './navbar.scss'
+import Sidebar from '../sidebar/Sidebar'
 import { motion } from 'framer-motion'
 
 const Navbar = () => {
   return (
     <div className='navbar'>
       {/* sidebar */}
+       <Sidebar/>
+      
       <div className="wrapper">
         <motion.span 
         initial={{ opacity:0, scale:0.5}}

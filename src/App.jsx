@@ -5,14 +5,11 @@ import Navbar from './components/navbar/Navbar';
 const App = () => {
   return <div>
     {/* <Text/> */}
-    <section><Navbar/></section>
-    <section>parallax</section>
-    <section>Services</section>
-    <section>Parallax</section>
-    <section>Portfolio1</section>
-    <section>Portfolio2</section>
-    <section>Portfolio3</section>
-    <section>Contact</section>
+    <section id='Homepage'><Navbar/></section>
+    <section id='Services'>parallax</section>
+    <section id='Portfolio'>Services</section>
+    <section id='About'>Parallax</section>
+    <section id='Contact'>Portfolio1</section>
   </div>;
 };
 
