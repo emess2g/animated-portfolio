@@ -21,6 +21,20 @@ a{
     color: inherit;
 }
 
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 4px 10px;
+    border-radius: 5px;
+    background-color: #1cb5f1;
+    color: #000;
+
+    &:hover{
+        background-color: #1c8db5;
+    }
+}
+
 section{
     height: 100vh;
     scroll-snap-align: center ;
