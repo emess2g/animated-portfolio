@@ -48,19 +48,22 @@ const Hero = () => {
         <motion.div className="textContainer" variants={textVariants}>
           <motion.h2 variants={textVariants}>ESSUON EMMANUEL</motion.h2>
           <motion.h1 variants={textVariants}>Web Developer & Ui Designer </motion.h1>
+          <motion.p variants={textVariants}> Expert in building creative professional WebSite For Businesses </motion.p>
           <motion.div variants={textVariants} className="buttons">
             <motion.button variants={textVariants}>See the Latest Works</motion.button>
             <motion.button variants={textVariants}>Contact Me</motion.button>
           </motion.div>
-           <motion.img variants={textVariants} animate="scrollButton" src="./scroll.png" alt="" />
+          <div className="">
+          <motion.img variants={textVariants} animate="scrollButton" src="./scroll.png" alt="" />
+          </div>
         </motion.div>
        </motion.div> 
        <motion.div className="slidingTextContainer" variants={sliderVariants} initial="initial" animate="animate"> 
         Writer Content Creator Web Developer
         </motion.div> 
-       <div className="imgContainer">
-        <img src="/hero.png" alt="" />
-       </div>
+       {/* <div className="imgContainer">
+        <img src="/profileImg.jpg" alt="" />
+       </div> */}
     </div>
   )
 }

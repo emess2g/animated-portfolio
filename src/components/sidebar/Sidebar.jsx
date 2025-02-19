@@ -33,7 +33,7 @@ const Sidebar = () => {
     animate={ open ? "open" : "closed"}
     className='sidebar'>
       <motion.div className="bg" variants={variants}>
-        <Links/>
+        <Links setOpen={setOpen}/>
       </motion.div>
       <ToggleButton setOpen={setOpen}/>
     </motion.div>
